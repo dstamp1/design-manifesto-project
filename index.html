@@ -8,72 +8,18 @@
     <body>
         <nav>
             <div class="nav-wrapper blue">
-                <a href="#" class="brand-logo blue">Logo</a>
+                <a href="#" class="brand-logo blue">Material Design</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down blue">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
+                    <li><a href="#bad-websites">Ugly Websites</a></li>
+                    <li><a href="#good-websites">Beautiful Websites</a></li>
+                    <li><a href="#best-practices">Design Best Practices</a></li>
+                    <li><a href="#implementation">How To: Implement Materialize</a></li>
                 </ul>
             </div>
         </nav>
         <div class="container">
             <h1>Design Manifesto + Materialize</h1>
-                <h2>Not so great websites</h2>
-                <div class="row">
-                    <div class="col s12 m4 l4">
-                        <div class="card hoverable white large">
-                            <div class='card-image'>
-                                <img src="static/yahoo.png"></img>
-                            </div>
-                            <div class="card-content black-text">
-                                <span class="card-title">Yahoo.com</span>
-                                <ul class="collection">
-                                    <li class="collection-item">Garish purple</li>
-                                    <li class="collection-item">Inconsistent fonts</li>
-                                </ul>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://www.yahoo.com/">www.yahoo.com</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4 l4">
-                        <div class="card hoverable white large">
-                            <div class='card-image'>
-                                <img src="static/yale-art.png"></img>
-                            </div>
-                            <div class="card-content black-text">
-                                <span class="card-title">Yale Art Website</span>
-                                <ul class="collection">
-                                    <li class="collection-item">Non-responsive layout</li>
-                                    <li class="collection-item">Tiled background image</li>
-                                </ul>
-                            </div>
-                            <div class="card-action">
-                                <a href="http://art.yale.edu/">art.yale.edu</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4 l4">
-                        <div class="card hoverable white large">
-                            <div class='card-image'>
-                                <img src="static/craigslist.png"></img>
-                            </div>
-                            <div class="card-content black-text">
-                                <span class="card-title">Craigslist</span>
-                                <ul class="collection">
-                                    <li class="collection-item">Non-responsive layout</li>
-                                    <li class="collection-item">Inconsistent columns and lists</li>
-                                </ul>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://newyork.craigslist.org/">https://newyork.craigslist.org/</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-      
-                <h2>Well-done websites</h2>
+                <h2 id="bad-websites">Not so great websites</h2>
                 <div class="row">
                     <div class="col s12 m4 l4">
                         <div class="card hoverable white large">
@@ -127,13 +73,68 @@
                         </div>
                     </div>
                 </div>
+      
+                <h2 id="good-websites">Well-done websites</h2>
+                <div class="row">
+                    <div class="col s12 m4 l4">
+                        <div class="card hoverable white large">
+                            <div class='card-image'>
+                                <img src="static/yahoo.png"></img>
+                            </div>
+                            <div class="card-content black-text">
+                                <span class="card-title">Yahoo.com</span>
+                                <ul class="collection">
+                                    <li class="collection-item">Garish purple</li>
+                                    <li class="collection-item">Inconsistent fonts</li>
+                                </ul>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.yahoo.com/">www.yahoo.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card hoverable white large">
+                            <div class='card-image'>
+                                <img src="static/yale-art.png"></img>
+                            </div>
+                            <div class="card-content black-text">
+                                <span class="card-title">Yale Art Website</span>
+                                <ul class="collection">
+                                    <li class="collection-item">Non-responsive layout</li>
+                                    <li class="collection-item">Tiled background image</li>
+                                </ul>
+                            </div>
+                            <div class="card-action">
+                                <a href="http://art.yale.edu/">art.yale.edu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card hoverable white large">
+                            <div class='card-image'>
+                                <img src="static/craigslist.png"></img>
+                            </div>
+                            <div class="card-content black-text">
+                                <span class="card-title">Craigslist</span>
+                                <ul class="collection">
+                                    <li class="collection-item">Non-responsive layout</li>
+                                    <li class="collection-item">Inconsistent columns and lists</li>
+                                </ul>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://newyork.craigslist.org/">newyork.craigslist.org</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <h2>Best Practices of Design</h2>
+                <h2 id="best-practices">Best Practices of Design</h2>
                     <ul class="collection">
                         <li class="collection-item">If your layout becomes complex; take a step back to paper and pencil to plan out your next steps</li>
                         <li class="collection-item">Use whitespace liberally to show breaks in content and to frame your text to avoid lines over 80 characters</li>
                     </ul>
-                <h2>How to Implement with Materialize</h2>
+                <h2 id="implementation">How to Implement with Materialize</h2>
                     <ul class="collection">
                         <li class="collection-item">Use of divs to section off areas of content</li>
                         <li class="collection-item">The grid in Materialize requires multiple classes to implement</li>
